@@ -12,6 +12,9 @@ def divide(num1, num2):
 
 def mod (num1,num2):
 	return(num1%num2)
+
+def square(num1):
+	return(num1**2)
   
 print("Please select operation")
 print("1. Add")
@@ -19,7 +22,7 @@ print("2. Subtract")
 print("3. Multiply")
 print("4. Divide")
 print("5. Mod")
-
+print("6. Squared")
   
    
 select = input("Select operations form 1, 2, 3, 4 ,5:")
@@ -45,6 +48,11 @@ elif select == '4':
 elif select =='5':
     print(number_1, "%", number_2, "=",
           mod(number_1, number_2))
+elif select =='6':
+    print(number_1, "Squared is", "=",
+          square(number_1)
+
+
 
 else: 
     print("Invalid input") 
