@@ -10,6 +10,9 @@ def multiply(num1, num2):
 # Function to divide two numbers 
 def divide(num1, num2): 
     return num1 / num2 
+
+def modulo (num1,num2):
+	return(num1%num2)
   
 print("Please select operation")
 print("1. Add")
